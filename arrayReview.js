@@ -10,7 +10,7 @@ var threeItems = [1,2,3];
 
 
 
-//Loop through evenArray removing all values that aren't even 
+//Loop through evenArray removing all values that aren't even
 var evenArray = [1,2,3,6,22,98,45,23,22,12];
 
   //code here
@@ -39,6 +39,8 @@ var second;
 
   //code here
 
+  second = first;
+
 alert(first) //[1,2,3,4,5];
 alert(second) //[1,2,3,4,5,6,7];
 
@@ -58,7 +60,7 @@ var sentence = "Dev Mountain is the best"
 
 
 
-//write a function called capitalize that takes in the myPoem variable and capitalizes every word 
+//write a function called capitalize that takes in the myPoem variable and capitalizes every word
 var myPoem = 'What is a jQuery but a misunderstood object?'
 //What is a jQuery but a misunderstood object? --> What Is A JQuery But A Misunderstood Object?
 
