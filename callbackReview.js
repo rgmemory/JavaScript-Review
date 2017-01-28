@@ -1,6 +1,12 @@
 /* Declare and Define the functions here that will make the function calls below work properly */
 
 
+function first(){
+  
+}
+
+
+
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 first(names, function(firstName){
@@ -106,7 +112,7 @@ var users = [
   },
 ];
 getUserById('16t', users, function(user){
-  console.log('The user with the id 16t has the email of ' + user.email + 'the name of ' + user.name + ' and the address of ' + user.address); 
+  console.log('The user with the id 16t has the email of ' + user.email + 'the name of ' + user.name + ' and the address of ' + user.address);
 });
 
 
@@ -117,8 +123,8 @@ getUserById('16t', users, function(user){
 
 
 
-//Looks through each value in the list, returning the first one that passes a truth test 
+//Looks through each value in the list, returning the first one that passes a truth test
 var numbers  = [1, 2, 3, 4, 5, 6];
-find(numbers, function(num){ 
+find(numbers, function(num){
   return num % 2 == 0; //should return 2
 })
